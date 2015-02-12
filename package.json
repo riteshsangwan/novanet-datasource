@@ -1,0 +1,42 @@
+{
+  "name": "novanet-datasource",
+  "description": "Nonet Datasource module for leave management application",
+  "version": "0.0.1",
+  "author": "riteshsangwan",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riteshsangwan/novanet-datasource.git"
+  },
+  "homepage": "https://github.com/riteshsangwan/novanet-datasource.git",
+  "keywords": [
+    "novanet"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "db-migrate": "0.7.1",
+    "fs-extra": "^0.14.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-db-migrate": "0.2.0",
+    "grunt-env": "^0.4.1",
+    "load-grunt-tasks": "^0.4.0",
+    "lodash": "^2.4.1",
+    "mysql": "^2.5.4",
+    "sequelize": "1.7.10"
+  },
+  "devDependencies": {
+    "grunt-mocha-test": "^0.10.2",
+    "mocha": "1.21.4",
+    "should": "^4.4.4"
+  },
+  "engines": {
+    "node": ">= 0.10.29"
+  },
+  "files": [
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {}
+}
